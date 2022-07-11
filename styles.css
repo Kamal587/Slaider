@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+
+.wrapper {
+    max-width: 1440px;
+    max-height: 783px;
+    margin: 0px auto;
+}
+
+main {
+    background-color: #131313;
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+    .section_left {
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .name_slayd {
+        display: flex;
+       
+    }
+
+    .vector_name {
+        position: relative;
+        top: 40px;
+    }
+
+    
+
+    .name_slayd h1 {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 37px;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+
+    .text_section1 {
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin: 30px 0px;
+    }
+
+.subsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    height: 200px;
+}
+    .group h2{
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #E3B873;
+    }
+
+    .group div{
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+
+    .arrows {
+        display: flex;
+        padding-top: 40px;
+        width: 170px;
+        justify-content: space-between;
+    }
+
+    .arrow_left {
+        cursor: pointer;
+    }
+
+    .arrow_right {
+        cursor: pointer;
+    }
+
+        .dots {
+            color: white;
+            
+        }
+
+
+        .dot {
+            display: inline-block;
+            margin: 0 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            outline: none;
+            background-color: gray;
+            cursor: pointer;
+        }
+
+        .dot.active {
+            background-color: white;
+        }
+        
+
+    .rooms {
+        display: flex;
+        width: 600px;
+        justify-content: space-between;
+        margin-bottom: 45px;
+    }
+
+    .room {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.3);
+        text-decoration: none;
+        
+    }
+
+
+    .room.active {
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-transform: uppercase;
+        text-decoration: underline;
+        color: #E3B873;
+    }
+
+.room_img img{
+    max-width: 680px;
+    max-height: 480px;
+}
+
+    
